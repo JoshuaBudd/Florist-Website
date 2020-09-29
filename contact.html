@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Title, meta charset, and link to external style sheet-->
+<head>
+<title>Contact Flowers R Us</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="final.CSS">
+
+<!--Internal style sheet-->
+<style>
+#contactForm  {border: 1px solid #975620;
+			   color: #6B3305;
+}
+table   {border-collapse: collapse;
+        }
+td      {padding: 0;
+        border-style: none;
+        }
+tr      {padding: 0;
+        border-style: none;
+        border-collapse: collapse;
+        }
+</style>
+</head>
+
+
+<body>
+<!--Wrapper for 2 column layout-->
+<div id="wrapper">
+	<!--Header with logo and skip to content link-->
+	<header>
+	<!--background color is #fcb86d-->
+	<img src="flowersRUs.PNG" alt="Flowers R Us Logo">
+	<a href="#content" class="skip">Skip to content</a>
+	</header>
+	<nav>
+	<ul>
+	<li><a href="home.html">Home</a></li>
+	<li><a href="productFlowersSale.html">Flowers For Sale</a></li>
+	<li><a href="productDYI.html">Grow Your Own</a></li>
+	<li><a href="productMisc.html">Miscellaneous Products</a></li>
+	<li><a href="about.html">About Us</a></li>
+	<li><a href="contact.html">Contact Us</a></li>
+	</ul>
+	</nav>
+	<!--main content of page inside the right column-->
+	<div id="rightcol">
+		<main>
+		<br>
+		<div id="content"></div>
+		<h1>Questions, Comments, Concerns?</h1>
+		<p>If you would like to get in contact with us, then please fill out the form below in its entirety and we 
+		   will try and get back to you as soon as we can(about as fast as Mrs. Keenan can read them!).</p>
+		<table id="contactForm" style="text-align:center;">
+			<tr>
+				<td>First Name: <input type="text" name="fname" id="fname"></td>
+				<td>Last Name: <input type="text" name="lname" id="lname"></td>
+			</tr>
+			<tr class="lineBreak">
+				<td>Street Address: <input type="text" name="address" id="address"></td>
+				<td>City: <input type="text" name="city" id="city" size="8"></td>
+			</tr>
+			<tr class="lineBreak">
+				<td>State: <input type="text" name="state" id="state" size="6"></td>
+				<td>Zip Code: <input type="text" name="zip" id="zip" size="6"></td>
+			</tr>
+			<tr class="lineBreak">
+				<td>Email: <input type="email" name="email" id="email"></td>
+				<td>Order #(if applicable)<input type="texT" name="orderNumber" id="orderNumber"></td>
+			</tr>
+			<tr class="lineBreak">
+				<td><textarea name="comments" id="comments" cols="40" rows="8">Comments, questions, ect.</textarea></td>
+			</tr>
+			<tr>
+				<td><input type="submit"></td>
+			</tr>
+		</table>
+		<p>for business inqueries, please contact Mr. Keenan at <a href="mailto:KeenanFlowersRUs@gmail.com">KeenanFlowersRUs@gmail.com</a> or 912-495-3859.</p>
+		</main>
+		<!--footer with copyright and designer-->
+		<footer id="footer">
+		<p>copyright &copy;2016 John Keenan Flowers R Us</p>
+		<p>Site Design: Intercorp Joshua Budd</p>
+		</footer>
+	</div>
+</div>
+
+
+</body>
+</html>

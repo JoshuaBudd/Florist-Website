@@ -1,0 +1,58 @@
+/*link to external website with color scheme used for this website: http://paletton.com/#uid=32P0u0kkLndat-ffQsjp9iXu-dq */
+.imageRight		{float: right;
+}
+#logo			{position:relative;
+				 left: 300px;
+}
+.skip           {float: right;
+}
+.product		{border: 1px solid #000000;
+				 background-color:#1A791A
+}
+.productName	{font-size: 22px;
+				 font-weight: bold;
+}
+.productPrice	{font-size: 16px;
+				 font-style: italic;
+}
+.productDes		{font-size: 14px;
+}
+#wrapper		{width: 60%;
+			     margin-left: auto;
+				 margin-right: auto;
+				 background-color: #B97741
+}
+#rightcol		{margin-left: 150px;
+				 background-color: #5BB45B
+}
+.lineBreak  	{border-top: 1px solid #975620;
+}
+body			{background-image: url(background.jpg);
+				 font-family: "Times New Roman", Arial, Tahoma;				
+}
+nav				{float: left;
+				 width: 150px;
+}
+nav a:link 		{color:#1A791A;
+}
+nav a:visited	{color: #8ED38E; 
+}
+nav a:focus, #nav a:hover {color: #045504; 
+}
+nav a:active 	{color: #000000;
+}
+header          {background-color:#fcb86d;
+}
+header img	    {position:relative;
+				 left: 400px;
+}
+footer          {background-color:#D38EB5;	
+				 font-style: italic;
+				 font-size: 14px;
+				 text-align: center;
+				 clear: both;
+}
+h1				{text-align: center;
+}
+h2				{text-align: center;
+}
